@@ -1,11 +1,16 @@
 nav {
-    background-color: orange;
+    background-color: #fe7f00;
     display: inline-block;
     width: 100%;
+    color: white;
 }
 
-.orange-span {
-    font-weight: bold;
+nav img {
+    height: 50px;
+}
+
+.orange-span, .trademark {
+    font-weight: 900;
 }
 
 ul {
@@ -14,4 +19,64 @@ ul {
 
 li {
     display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.search {
+    float: right;
+}
+
+.main {
+    display: inline-block;
+}
+
+.mainimg {
+    width: 44%;
+    margin: 0 auto;
+}
+
+.blurb {
+    width: 44%;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 65px;
+    color: #fe7f00;
+}
+
+.trademark {
+    font-size: 25px;
+}
+
+.bluetext {
+    color: #7acdc7;
+    font-weight: bold;
+}
+
+button {
+    height: 60px;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 10px 30px;
+}
+
+.orangebutton {
+    background-color: #fe7f00;
+}
+
+.bluebutton {
+    background-color: #7acdc7;
+}
+
+footer {
+    background-color: #7acdc7;
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
 }
