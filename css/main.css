@@ -27,6 +27,7 @@ a {
 }
 
 .search {
+    display: inline;
     float: right;
 }
 
@@ -58,12 +59,15 @@ p {
     font-weight: bold;
 }
 
+.buttons {
+    text-align: center;
+}
+
 button {
-    height: 60px;
     color: white;
-    font-weight: bold;
     border: 0;
-    padding: 10px 30px;
+    padding: 20px 80px;
+    margin: 0 40px;
 }
 
 .orangebutton {
